@@ -54,7 +54,8 @@
     <div class="container">
 
         <!-- for form  -->
-        <form action="/analyzed" method="POST"> {% csrf_token %}
+        <form action="/analyzed" method="POST"> {% csrf_token %} <!-- A tocken of CSRF to protect website -->
+
 
             <!-- for text -->
             <div class="form-floating mt-5">
